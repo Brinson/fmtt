@@ -1,0 +1,5 @@
+#nop
+#split
+#CONFIG {REPEAT ENTER} {ON}
+#session fm play.forsakenmud.com 1848
+#CONFIG {CHILD LOCK} ON
