@@ -28,6 +28,7 @@ RUN apt remove -y \
   && apt autoremove -y \
   && apt autoclean
 COPY webtin /usr/local/bin/
+COPY ./ /data
 RUN chown root:root /usr/local/bin/webtin
 RUN chmod 755 /usr/local/bin/webtin
 RUN useradd -ms /bin/bash term
