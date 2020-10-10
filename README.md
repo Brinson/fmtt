@@ -10,5 +10,7 @@ This is a fork of: https://github.com/rpolve/webtin
 
 # How to Build
 
+```
 docker build -t fmtt:prod .
 docker run -p 3000:3000 fmtt:prof &
+```
